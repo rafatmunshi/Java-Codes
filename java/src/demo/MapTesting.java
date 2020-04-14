@@ -57,6 +57,7 @@ public class MapTesting {
 			System.out.print(e+" ");
 		}
 		for(Entry<Integer, String> e:chm.entrySet()){
+			//chm.remove(1);
 			chm.put(7,"abc");
 		}
 		System.out.println("");
@@ -84,15 +85,14 @@ public class MapTesting {
 		
 		System.out.println("");
 		for(Entry<Integer, String> e:ht.entrySet()){
-		//	ht.put(7,"abc");
+			//ht.put(7,"abc");
+			//ht.remove();
 			System.out.print(e.getKey()+" ");
 		}
 		System.out.println("");
 		for(Entry<Integer, String> e:ht.entrySet()){
-			ht.put(7,"abc");
+			//ht.put(7,"abc");
 			System.out.print(e.getKey()+" ");
-		}
-		
-		
+		}		
 	}
 }

@@ -71,6 +71,5 @@ public class HashMapSorting {
 	        for(Entry<Integer, Employee> mapping : entrySetSortedByValue){
 	            System.out.println(mapping.getKey() + " ==> " + mapping.getValue().getSalary());
 	        }
-	}
-	
+	}	
 }

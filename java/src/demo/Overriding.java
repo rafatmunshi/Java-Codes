@@ -1,13 +1,14 @@
 package demo;
 
-
+import java.io.FileNotFoundException;
+import java.io.IOException;
 
 //A Simple Java program to demonstrate 
 //method overriding in java 
 
 //Base Class 
 class Parent { 
-	 protected void show() 
+	protected  void show() 
 	{ 
 		System.out.println("Parent's show()"); 
 	} 
@@ -16,8 +17,8 @@ class Parent {
 //Inherited class 
 class Child extends Parent { 
 	// This method overrides show() of Parent 
-	@Override
-   protected void show() 
+	@Override	
+   public void show() 
 	{ 
 		System.out.println("Child's show()"); 
 	} 
